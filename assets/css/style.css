@@ -162,11 +162,12 @@ header nav li {
   width: 100%;
   background-color: #cfd8dc;
   color: #040E18;
-  padding: 3% 0;
+  padding: 60px 0;
 }
 
 #skills .mx-auto {
   width: 80%;
+  padding: 80px 0;
   border-left: 15px solid #122232;
   border-radius: 5px;
 }
