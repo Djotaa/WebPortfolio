@@ -48,8 +48,8 @@ header nav a:hover {
           box-shadow: 0px 0px 5px #fff;
   border-radius: 5px;
   padding: 9px;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 header nav li {
@@ -60,7 +60,7 @@ header nav li {
 #slider {
   width: 100%;
   height: 100vh;
-  background-image: url(../img/pozadina.png);
+  background-image: url(../img/pozadina.gif);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -174,6 +174,20 @@ header nav li {
 
 #skills .mx-auto h2 {
   font-size: 90px;
+}
+
+#skills #skillsIcons {
+  width: 60%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#skills #skillsIcons figure {
+  width: 22%;
+}
+
+#skills #skillsIcons figure img {
+  width: 100%;
 }
 
 .mx-auto {
