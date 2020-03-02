@@ -162,12 +162,11 @@ header nav li {
   width: 100%;
   background-color: #cfd8dc;
   color: #040E18;
-  padding: 60px 0;
+  padding: 80px 0;
 }
 
 #skills .mx-auto {
   width: 80%;
-  padding: 80px 0;
   border-left: 15px solid #122232;
   border-radius: 5px;
 }
@@ -176,17 +175,21 @@ header nav li {
   font-size: 90px;
 }
 
-#skills #skillsIcons {
+#skills .mx-auto #rows {
   width: 60%;
+}
+
+#skills .mx-auto #rows .skillsIcons {
+  width: 100%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
-#skills #skillsIcons figure {
+#skills .mx-auto #rows .skillsIcons figure {
   width: 22%;
 }
 
-#skills #skillsIcons figure img {
+#skills .mx-auto #rows .skillsIcons figure img {
   width: 100%;
 }
 
