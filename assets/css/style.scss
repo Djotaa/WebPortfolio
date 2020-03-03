@@ -112,19 +112,18 @@ header{
 #skills{
     width: 100%;    
     background-color: #cfd8dc;
-    color: #040E18;
-    padding: 80px 0;
+    
     .mx-auto{
-        width: 80%;
-        border-left: 15px solid #122232;
+        border-left: 15px solid #091d35;
         border-radius: 5px;
         h2{
             font-size: 90px;
+            color: #091d35;
         }
         #rows{
             width: 60%;
             .skillsIcons{
-                width: inherit;
+                width: 100%;
                 figure{
                     width: 22%;
                     img{
@@ -135,11 +134,35 @@ header{
         }
     }
 }
-
+#projects{
+    width: 100%;
+    background-color: #091d35;
+    color: white;
+    .mx-auto{
+        border-right: 15px solid white;
+        border-radius: 5px;
+    }
+    h2{
+        font-size: 90px;
+    }
+}
+#btnUp{
+    color: #122232;
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    font-size: 50px;
+}
 //Footer
 
 
 //Classes
+.w-80{
+    width: 80%;
+}
+.p-80-0{
+    padding: 80px 0;
+}
 .mx-auto{
     margin: 0 auto;
 }

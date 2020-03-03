@@ -35,6 +35,9 @@
     header nav ul li{
         font-size: 20px;
     }
+    header nav ul li a:hover{
+        font-size: 24px;
+    }
     #slider #providan #welcome{
         font-size: 25px;
     }
@@ -42,7 +45,7 @@
         padding: 60px 0px;
     }
     #skills .mx-auto h2{
-        font-size: 60px;
+        font-size: 50px;
     }
 }
 @media screen and (max-width: 505px){
