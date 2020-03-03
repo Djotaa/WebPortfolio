@@ -1,62 +1,134 @@
-@media screen and (max-width: 1000px){
-    #slider #providan #welcome{
-        font-size: 30px;
-    }
-    .p-80-0{
-        padding: 50px 0px;
-    }
-    #skills .mx-auto h2{
-        font-size: 75px;
-        margin-bottom: 10px;
-        border-bottom: 5px solid #040E18;
-    }
-    #skills .mx-auto{
-        width: 95%;
-        flex-direction: column;
-        border-left: 0px;
-    }
-    #skills .mx-auto #rows{
-        width: 100%;
-    }
-    #skills .mx-auto #rows .skillsIcons figure{
-        width: 17%;
-    }
+@media screen and (max-width: 1200px) {
+  #projects .mx-auto h2 {
+    font-size: 65px;
+  }
+  #projects .mx-auto .rows .projekti .projekat figure {
+    width: 96%;
+  }
 }
-@media screen and (max-width: 800px){
-    header nav{
-        justify-content: center;
-    }
+
+@media screen and (max-width: 1000px) {
+  header nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #slider #providan #welcome {
+    font-size: 35px;
+  }
+  .p-80-0 {
+    padding: 50px 0px;
+  }
+  #skills .mx-auto {
+    width: 95%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-left: 0px;
+  }
+  #skills .mx-auto h2 {
+    font-size: 75px;
+    margin-bottom: 10px;
+    border-bottom: 5px solid #040E18;
+  }
+  #skills .mx-auto .rows {
+    width: 100%;
+  }
+  #skills .mx-auto .rows .skillsIcons figure {
+    width: 16%;
+  }
+  #projects .mx-auto {
+    width: 95%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    border-right: 0px;
+  }
+  #projects .mx-auto h2 {
+    font-size: 70px;
+    margin-bottom: 10px;
+    border-bottom: 5px solid #fff;
+  }
+  #projects .mx-auto .rows {
+    width: 100%;
+  }
+  #projects .mx-auto .rows .projekti .projekat {
+    width: 50%;
+  }
+  #projects .mx-auto .rows .projekti figure {
+    width: 100%;
+  }
 }
-@media screen and (max-width: 600px){
-    header nav ul{
-        flex-direction: column;
-        align-items: center;
-    }
-    header nav ul li{
-        font-size: 20px;
-    }
-    header nav ul li a:hover{
-        font-size: 24px;
-    }
-    #slider #providan #welcome{
-        font-size: 25px;
-    }
-    .p-80-0{
-        padding: 40px 0px;
-    }
-    #skills .mx-auto h2{
-        font-size: 50px;
-    }
+
+@media screen and (max-width: 800px) {
+  header nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
-@media screen and (max-width: 505px){
-    #slider #providan #welcome{
-        padding-left: 30px;
-        font-size: 20px;
-    }
+
+@media screen and (max-width: 675px) {
+  #slider #providan #welcome {
+    font-size: 30px;
+  }
 }
-@media screen and (max-width: 400px){
-    #slider #providan #welcome{
-        padding-left: 5px;
-        font-size: 17px;
-    }
+
+@media screen and (max-width: 600px) {
+  header nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header nav ul li {
+    font-size: 20px;
+  }
+  header nav ul li a:hover {
+    font-size: 24px;
+  }
+  #slider #providan #welcome {
+    font-size: 25px;
+  }
+  .p-80-0 {
+    padding: 40px 0px;
+  }
+  #skills .mx-auto h2 {
+    font-size: 50px;
+  }
+  #projects .mx-auto h2 {
+    font-size: 50px;
+  }
+  #projects .mx-auto .rows .projekti {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #projects .mx-auto .rows .projekti .projekat {
+    width: 80%;
+  }
 }
+
+@media screen and (max-width: 505px) {
+  #slider #providan #welcome {
+    padding-left: 30px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #slider #providan #welcome {
+    padding-left: 5px;
+    font-size: 17px;
+  }
+}
+/*# sourceMappingURL=res.css.map */
