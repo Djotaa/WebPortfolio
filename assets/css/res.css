@@ -2,8 +2,8 @@
     #slider #providan #welcome{
         font-size: 30px;
     }
-    #skills{
-        padding: 70px 0px;
+    .p-80-0{
+        padding: 50px 0px;
     }
     #skills .mx-auto h2{
         font-size: 75px;
@@ -41,8 +41,8 @@
     #slider #providan #welcome{
         font-size: 25px;
     }
-    #skills{
-        padding: 60px 0px;
+    .p-80-0{
+        padding: 40px 0px;
     }
     #skills .mx-auto h2{
         font-size: 50px;
