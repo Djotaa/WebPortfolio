@@ -314,6 +314,7 @@ footer .mx-auto .col input, footer .mx-auto .col textarea {
   color: #091d35;
   padding: 5px 0px 0px 5px;
   width: 90%;
+  resize: none;
 }
 
 footer .mx-auto .col input:focus, footer .mx-auto .col textarea:focus {
