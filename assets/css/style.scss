@@ -43,6 +43,8 @@ header{
         }
     }
 }
+
+//Main
 //Slider
 #slider{
     width: 100%;
@@ -108,7 +110,7 @@ header{
     }
 }
 
-//Main
+//Skills
 #skills{
     width: 100%;    
     background-color: #cfd8dc;
@@ -133,6 +135,7 @@ header{
         }
     }
 }
+//Projects
 #projects{
     width: 100%;
     background-color: #091d35;
@@ -156,9 +159,11 @@ header{
             figure{
                 width: 90%;
                 margin: 0 auto;
+                background-color: rgba(0,0,0, 0.5);
+                border-radius: 5px;
                 img{
                     width: 100%;
-                    border-radius: 5px;
+                    border-radius: 5px 5px 0px 0px;
                 }
                 figcaption{
                     text-align: center;
@@ -167,6 +172,98 @@ header{
         }
     }
 }
+//AboutMe
+#aboutMe{
+    width: 100%;
+    background-color: #cfd8dc;
+    color: #091d35;
+    .mx-auto{
+        border-left: 15px solid #091d35;
+        border-radius: 5px;
+        width: 85%;
+        h2{
+            font-size: 75px;
+        }
+        .d-flex{
+            width: 70%;
+            #slika, #tekst{
+                width: 46%;
+                font-size: 26px;
+                text-align: center;
+                figure{
+                    width:100%;
+                    img{
+                        width:100%;
+                        border-radius: 5px;
+                        box-shadow: 0px 0px 10px #000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//Footer
+footer{
+    width:100%;
+    background-color: #040E18;
+    color: #fff;
+    font-size: 22px;
+    padding: 30px 0px;
+    a{
+        color: #fff;
+    }
+    i{
+        font-size: 34px;
+    }
+    h3{
+        font-size: 34px;
+    }
+    ul, h3{
+        text-align: center;
+        li{
+            padding-top: 15px;
+        }
+    }
+    .mx-auto{
+        width: 85%;
+        .col{
+            width: 32%;
+            a:hover{
+                border-bottom: 1px solid #fff;
+            }
+            input, textarea{
+                border-radius: 5px;
+                margin-bottom: 8px;
+                background-color: #cfd8dc;
+                color: #091d35;
+                padding: 5px 0px 0px 5px;
+                width: 90%;
+                &:focus{
+                    outline: none;
+                    box-shadow: 0px 0px 8px #fff;
+                    transition: ease-in;
+                }
+            }
+            input{
+                height: 30px;
+            }
+            button{
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                background-color: #cfd8dc;
+                color: #091d35;
+                font-size: 20px;
+                font-weight: bold;
+                &:hover{
+                    box-shadow: 0px 0px 8px #fff;
+                }
+            }
+        }
+    }
+}
+
 #btnUp{
     color: #fff;
     position: fixed;
@@ -178,9 +275,6 @@ header{
     height: 60px;
     font-size: 40px;
 }
-//Footer
-
-
 //Classes
 .rows{
     width: 60%;

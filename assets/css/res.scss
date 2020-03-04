@@ -1,3 +1,18 @@
+@media screen and (max-width: 1360px){
+    #aboutMe{
+        .mx-auto{
+            h2{
+                font-size: 70px;
+            }
+            .d-flex{
+                #tekst, #slika{
+                    font-size: 20px;
+                    width: 48%;
+                }
+            }
+        }
+    }
+}
 @media screen and (max-width: 1200px){
     #projects{
         .mx-auto{
@@ -40,7 +55,7 @@
             h2{
                 font-size: 75px;
                 margin-bottom: 10px;
-                border-bottom: 5px solid #040E18;
+                border-bottom: 5px solid #091d35;
             }
             .rows{
                 width: 100%;
@@ -75,8 +90,31 @@
             }
         }
     }
+    #aboutMe{
+        .mx-auto{
+            flex-direction: column;
+            width: 100%;
+            border-left: 0px;
+            h2{
+                font-size: 70px;
+                margin-bottom: 10px;
+                border-bottom: 5px solid #091d35;
+            }
+            .d-flex{
+                width: 100%;
+            }
+        }
+    }
+    #contact{
+        .mx-auto{
+            flex-direction: column;
+            .col{
+                width: 90%;
+                margin-bottom: 40px;
+            }
+        }
+    }
 }
-
 @media screen and (max-width: 800px){
     header{
         nav{
@@ -143,6 +181,21 @@
             }
         }
     }
+    #aboutMe{
+        .mx-auto{
+            flex-direction: column;
+            h2{
+                font-size: 50px;
+            }
+            .d-flex{
+                width: 100%;
+                flex-direction: column;
+                #slika, #tekst{
+                    width: 70%;
+                }
+            }
+        }
+    }
 }
 @media screen and (max-width: 505px){
     #slider{
@@ -150,6 +203,15 @@
             #welcome{
                 padding-left: 30px;
                 font-size: 20px;
+            }
+        }
+    }
+    #aboutMe{
+        .mx-auto{
+            .d-flex{
+                #tekst{
+                    font-size: 20px;
+                }
             }
         }
     }

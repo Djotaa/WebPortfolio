@@ -217,15 +217,130 @@ header nav li {
 #projects .projekti .projekat figure {
   width: 90%;
   margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
 
 #projects .projekti .projekat figure img {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 #projects .projekti .projekat figure figcaption {
   text-align: center;
+}
+
+#aboutMe {
+  width: 100%;
+  background-color: #cfd8dc;
+  color: #091d35;
+}
+
+#aboutMe .mx-auto {
+  border-left: 15px solid #091d35;
+  border-radius: 5px;
+  width: 85%;
+}
+
+#aboutMe .mx-auto h2 {
+  font-size: 75px;
+}
+
+#aboutMe .mx-auto .d-flex {
+  width: 70%;
+}
+
+#aboutMe .mx-auto .d-flex #slika, #aboutMe .mx-auto .d-flex #tekst {
+  width: 46%;
+  font-size: 26px;
+  text-align: center;
+}
+
+#aboutMe .mx-auto .d-flex #slika figure, #aboutMe .mx-auto .d-flex #tekst figure {
+  width: 100%;
+}
+
+#aboutMe .mx-auto .d-flex #slika figure img, #aboutMe .mx-auto .d-flex #tekst figure img {
+  width: 100%;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px #000;
+          box-shadow: 0px 0px 10px #000;
+}
+
+footer {
+  width: 100%;
+  background-color: #040E18;
+  color: #fff;
+  font-size: 22px;
+  padding: 30px 0px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer i {
+  font-size: 34px;
+}
+
+footer h3 {
+  font-size: 34px;
+}
+
+footer ul, footer h3 {
+  text-align: center;
+}
+
+footer ul li, footer h3 li {
+  padding-top: 15px;
+}
+
+footer .mx-auto {
+  width: 85%;
+}
+
+footer .mx-auto .col {
+  width: 32%;
+}
+
+footer .mx-auto .col a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+footer .mx-auto .col input, footer .mx-auto .col textarea {
+  border-radius: 5px;
+  margin-bottom: 8px;
+  background-color: #cfd8dc;
+  color: #091d35;
+  padding: 5px 0px 0px 5px;
+  width: 90%;
+}
+
+footer .mx-auto .col input:focus, footer .mx-auto .col textarea:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 8px #fff;
+          box-shadow: 0px 0px 8px #fff;
+  -webkit-transition: ease-in;
+  transition: ease-in;
+}
+
+footer .mx-auto .col input {
+  height: 30px;
+}
+
+footer .mx-auto .col button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #cfd8dc;
+  color: #091d35;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer .mx-auto .col button:hover {
+  -webkit-box-shadow: 0px 0px 8px #fff;
+          box-shadow: 0px 0px 8px #fff;
 }
 
 #btnUp {
